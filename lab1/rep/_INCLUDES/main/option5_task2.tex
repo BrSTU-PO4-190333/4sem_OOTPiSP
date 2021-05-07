@@ -1,0 +1,76 @@
+\paragraph{6.} Программа решения задания 2
+
+\lstinputlisting[
+    name=main.cpp,
+    language=C++,
+]
+{../../src/option5-task2/src/main.cpp}
+
+\newpage
+
+\paragraph{7.} Результат работы программы
+
+\begin{lstlisting}[
+    language=Out,
+]
+1) - -n-++m
+	n = 1
+	m = 1
+- -n-++m = 
+	= (- - n) - (++m) = 
+	= n - (m+1) = 
+	= 1 - (1+1) = 1 - 2 = -1
+	= 1 - (1+1) = 1 - 2 = -1
+Answer: -1
+
+2) m*n<n++
+	n = 1
+	m = 1
+m*n<n++
+	(m * n) < n
+	(1 * 1) < 1
+	1 < 1
+Answer: 0
+
+3) n-- > m++
+	n = 1
+	m = 1
+n-- > m++
+	n > m
+	1 > 1
+Answer: 0
+\end{lstlisting}
+
+\paragraph{8.} Объяснение результатов
+
+Запись минус-пробел-минус - это не инфиксная запись отнимания один, это двойное отрицание.
+
+\begin{lstlisting}[
+    language=empty,
+]
+x = 1
+- - x //1
+--x //0
+\end{lstlisting}
+
+Инфиксная форма: ++x - увеличение значения x на 1, и возврат увеличенный на 1.
+
+\begin{lstlisting}[
+    language=empty,
+]
+x = 1
+a = ++x
+print(a) //2
+print(x) //2
+\end{lstlisting}
+
+Постфиксная форма: x++ - увеличивает значение x на 1, но возвращает значение обычного не увеличенного x.
+
+\begin{lstlisting}[
+    language=empty,
+]
+x = 1
+a = x++
+print(a) //1
+print(x) //2
+\end{lstlisting}
