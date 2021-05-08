@@ -1,0 +1,70 @@
+\begin{center}
+    \textbf{\titlePageWorkType~№\titlePageWorkNumber}
+\end{center}
+
+\textbf{Тема}: <<\titlePageTopic>>
+
+\textbf{Цель работы}: Получить практические навыки создания абстрактных типов данных и перегрузки операций в языке С++.
+
+\begin{center}
+    \textbf{Ход работы}:
+\end{center}
+
+\textbf{Порядок выполнения работы.}
+
+\begin{enumerate}
+    \item [1.] Выбрать класс абстрактного типа данных (АТД) в соответствии с вариантом.
+    \item [2.] Определить и реализовать в классе конструкторы, деструктор, функции Input (ввод с клавиатуры) и Print (вывод на экран), перегрузить операцию присваивания. 
+    \item [3.] Написать программу тестирования класса и выполнить тестирование. 
+    \item [4.] Дополнить определение класса заданными перегруженными операциями ( в соответствии с вариантом).
+    \item [5.] Реализовать эти операции. Выполнить тестирование.
+\end{enumerate}
+
+\begin{center}
+    \textbf{Вариант 5}:
+\end{center}
+
+АТД - множество с элементами типа char.
+Дополнительно перегрузить следующие операции:
+\begin{itemize}
+    \item () - конструктор множества (в стиле конструктора Паскаля);
+    \item + - объединение множеств;
+    \item <= - сравнение множеств.
+\end{itemize}
+
+\lstinputlisting[language=C++, name=main.cpp,]
+{../../src/option5/src/main.cpp}
+
+\begin{lstlisting}[language=Out,]
+0x7fffa24d6780 constructor
+x1
+[ a, b, c, ]
+
+0x7fffa24d6770 constructor
+x2
+[ a, c, d, ]
+
+(x1 <= x2) = 1
+
+(x2 <= x1) = 0
+
+(x1 <= x1) = 1
+
+x3
+0x7fffa24d6760 constructor
+[ d, g, u, w, ]
+
+x4
+0x7fffa24d6750 constructor
+[ d, l, s, t, ]
+
+x5 = x3 + x4
+0x7fffa24d6740 constructor
+[ d, g, l, s, t, u, w, ]
+
+0x7fffa24d6740 destructor
+0x7fffa24d6750 destructor
+0x7fffa24d6760 destructor
+0x7fffa24d6770 destructor
+0x7fffa24d6780 destructor
+\end{lstlisting}
