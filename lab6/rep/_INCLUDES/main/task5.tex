@@ -1,0 +1,20 @@
+\paragraph{Задание 5} \hspace{0pt}
+
+\textbf{Условие}:
+Напишите программу на С++, которая показывает, что при возникновении исключения вызываются деструкторы только тех объектов, которые были созданы прежде, чем произошла генерация исключения.
+
+\textbf{Решение}:
+
+\lstinputlisting[language=C++, name=main.cpp,]
+{../../src/task5/src/main.cpp}
+
+\begin{lstlisting}[language=Out,]
+= = = = = start try = = = = =
+0x7fff9464c060 constructor
+0x7fff9464c0b0 constructor
+0x7fff9464c100 constructor
+0x7fff9464c100 destructor
+0x7fff9464c0b0 destructor
+0x7fff9464c060 destructor
+catch(...)
+\end{lstlisting}
