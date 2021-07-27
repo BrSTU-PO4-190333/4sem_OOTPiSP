@@ -35,10 +35,9 @@ To compile, you need 'cmake'.
 mkdir build
 cd build
 cmake ..
-# cmake .. --G"Code Blocks - Unix Makefiles"
-# Open the project in CodeBlocks when opening build/Project.cbn
-# Open the project in VisualStudio when opening build/Project.sln
+# cmake .. -G "CodeBlocks - Unix Makefiles"
 cmake --build .
 ./main
+#./main.exe
 # Debug/main.exe
 ```
