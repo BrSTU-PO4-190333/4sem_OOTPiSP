@@ -10,8 +10,8 @@
 
 ## Список отчётов
 
-- [lab1](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ОСиСП_ПО-4_Галанин_лаб1.pdf)
-- [lab2](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ОСиСП_ПО-4_Галанин_лаб2.pdf)
-- [lab3](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ОСиСП_ПО-4_Галанин_лаб3.pdf)
-- [lab4](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ОСиСП_ПО-4_Галанин_лаб4.pdf)
-- [lab7](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ОСиСП_ПО-4_Галанин_лаб7.pdf)
+- [lab1](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ООТПиСП_ПО-4_Галанин_лаб1.pdf)
+- [lab2](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ООТПиСП_ПО-4_Галанин_лаб2.pdf)
+- [lab3](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ООТПиСП_ПО-4_Галанин_лаб3.pdf)
+- [lab4](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ООТПиСП_ПО-4_Галанин_лаб4.pdf)
+- [lab7](https://github.com/Pavel-Innokentevich-Galanin/4sem_OOTPiSP/blob/gh-pages/ООТПиСП_ПО-4_Галанин_лаб7.pdf)
